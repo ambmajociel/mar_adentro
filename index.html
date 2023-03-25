@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Add this line in the head section of your HTML file -->
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Projeto Mar Adentro 2023</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div
+      id="home-page"
+      class="container text-center vh-100 d-flex flex-column justify-content-center"
+    >
+      <!-- Logo, title, subtitle, and call-to-action button will be added here -->
+      <img
+        src="logo.svg"
+        alt="Logo Mar Adentro"
+        class="mx-auto"
+        style="width: 70%"
+      />
+      <h1 class="title mt-4">Audioguia</h1>
+      <p class="subtitle lead">
+        Conheça a exposição Mar Adentro por meio de audiodescrições
+      </p>
+      <button id="start-btn" class="cta-btn-lg btn-primary rounded-pill mt-4">
+        Vamos começar -->
+      </button>
+    </div>
+
+    <div id="audio-description" class="container mt-4" style="display: none">
+      <div class="container mt-4">
+        <div class="d-flex align-items-center"></div>
+        <h6 class="info-text mt-3 px-3 py-1 rounded-pill">
+        <h6>Confira as audiodescrições nos botões abaixo ↴</h6>
+        
+        <div id="panel-list" class="list-group mt-3">
+          <!-- Panel buttons will be added using JavaScript -->
+        </div>
+        <audio
+          id="audio-player"
+          controls
+          class="w-100 mt-3 fixed-bottom"
+          hidden
+        >
+          O seu navegador não suporta conteúdo de áudio.
+        </audio>
+      </div>
+    </div>
+
+    <!-- JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

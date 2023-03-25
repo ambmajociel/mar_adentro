@@ -1,0 +1,49 @@
+/* main.css */
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* main.css */
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .cta-btn {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+  }
+  
+  .button-wrapper {
+    margin-right: 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .button-wrapper {
+      width: calc(100% - 1rem) !important;
+    }
+  }
+
+  #audio-player {
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Ensure the audio player is above other content */
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-text {
+    background-color: #253E5A;
+    color: #FCF6E6;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 10px;
+  }
