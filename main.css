@@ -47,3 +47,9 @@ body {
     padding: 30px;
     margin-top: 10px;
   }
+
+  .custom-start-btn {
+    background-color: #253E5A;
+    color: #FCF6E6;
+  }
+  
