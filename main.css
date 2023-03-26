@@ -1,8 +1,10 @@
 /* main.css */
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #FCF6E6;
   }
   
+
   /* main.css */
 .title {
     font-size: 2rem;
@@ -23,6 +25,8 @@ body {
   
   .button-wrapper {
     margin-right: 1rem;
+    margin-left: 1rem;
+
   }
   
   @media (max-width: 767px) {
@@ -52,4 +56,27 @@ body {
     background-color: #253E5A;
     color: #FCF6E6;
   }
+  
+  .svg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  svg {
+    display: block;
+    width: 100%;
+  }
+  
+  #panel-list .list-group-item {
+    background-color: rgba(116, 184, 201, 0.3);
+    border-radius: 5px;
+    padding: 8px 12px; /* Adjust the padding values as needed */
+    display: inline-block; /* Make the buttons hug the content */
+    margin-bottom: 5px; /* Add spacing between buttons if they wrap */
+  }
+  
+  
   
