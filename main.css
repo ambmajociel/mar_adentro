@@ -1,83 +1,79 @@
 /* main.css */
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: #FCF6E6;
-  }
-  
+  font-family: "Inter", sans-serif;
+  background-color: #fcf6e6;
+}
 
-  /* main.css */
+/* main.css */
 .title {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-top: 1rem;
-  }
-  
-  .subtitle {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 0.5rem;
-  }
-  
-  .cta-btn {
-    font-size: 1.2rem;
-    padding: 0.75rem 1.5rem;
-    border-radius: 50px;
-  }
-  
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.cta-btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+}
+
+.button-wrapper {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 767px) {
   .button-wrapper {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    width: calc(100% - 1rem) !important;
+  }
+}
 
-  }
-  
-  @media (max-width: 767px) {
-    .button-wrapper {
-      width: calc(100% - 1rem) !important;
-    }
-  }
+#audio-player {
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  z-index: 1030; /* Ensure the audio player is above other content */
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
 
-  #audio-player {
-    left: 0;
-    right: 0;
-    z-index: 1030; /* Ensure the audio player is above other content */
-    background-color: #fff;
-    padding: 1rem;
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
-  }
+.info-text {
+  background-color: #253e5a;
+  color: #fcf6e6;
+  border-radius: 25px;
+  padding: 30px;
+  margin-top: 10px;
+}
 
-  .info-text {
-    background-color: #253E5A;
-    color: #FCF6E6;
-    border-radius: 25px;
-    padding: 30px;
-    margin-top: 10px;
-  }
+.custom-start-btn {
+  background-color: #253e5a;
+  color: #fcf6e6;
+}
 
-  .custom-start-btn {
-    background-color: #253E5A;
-    color: #FCF6E6;
-  }
-  
-  .svg-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-  }
-  
-  svg {
-    display: block;
-    width: 100%;
-  }
-  
-  #panel-list .list-group-item {
-    background-color: rgba(116, 184, 201, 0.3);
-    border-radius: 5px;
-    padding: 8px 12px; /* Adjust the padding values as needed */
-    display: inline-block; /* Make the buttons hug the content */
-    margin-bottom: 5px; /* Add spacing between buttons if they wrap */
-  }
-  
-  
-  
+.svg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+svg {
+  display: block;
+  width: 100%;
+}
+
+#panel-list .list-group-item {
+  background-color: rgba(116, 184, 201, 0.3);
+  border-radius: 5px;
+  padding: 8px 12px; /* Adjust the padding values as needed */
+  display: inline-block; /* Make the buttons hug the content */
+  margin-bottom: 5px; /* Add spacing between buttons if they wrap */
+}
