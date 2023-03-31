@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           panel: "5 · As Praias São Diferentes?",
-          url: "https://github.com/ambmajociel/mar_adentro/blob/main/audioguias/Mar%20Adentro%20Painel%2006.mp3?raw=true",
+          url: "https://github.com/ambmajociel/mar_adentro/blob/main/audioguias/Mar%20Adentro%20Painel%2005.mp3?raw=true",
         },
         {
           panel: "6 · Imagens de Sedimentos",
